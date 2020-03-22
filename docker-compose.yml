@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  flask-boilerplate:
+    build: .
+    environment:
+      FLASK_APP: app.py
+    ports:
+      - "5000:5000"
