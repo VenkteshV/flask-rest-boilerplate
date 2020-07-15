@@ -3,7 +3,7 @@ import os
 from flask import Flask, jsonify, make_response
 from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
-from routes import health
+from src.routes import health
 
 APP = Flask(__name__)
 
