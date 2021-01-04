@@ -1,6 +1,6 @@
 flask-rest-boilerplate
 
-start app by comman python src/app.py
+start app by command gunicorn -c gunicorn.conf.py wsgi:APP
 
 To run tests start app and open new terminal tab and run command 'nosetests'
 
